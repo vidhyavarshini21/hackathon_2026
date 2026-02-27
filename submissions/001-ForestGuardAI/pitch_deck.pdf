@@ -1,0 +1,4 @@
+def send_alert(score):
+    print("\n🚨 ALERT TRIGGERED 🚨")
+    print(f"High Forest Threat Level Detected! Risk Score: {score}")
+    print("Authorities Notified (Simulated)")

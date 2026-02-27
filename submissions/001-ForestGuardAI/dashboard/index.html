@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ForestGuard AI Dashboard</title>
+</head>
+<body>
+    <h1>🌲 ForestGuard AI</h1>
+    <h2>Live Risk Monitor</h2>
+    <div id="risk">Risk Score: --</div>
+
+    <script>
+        function simulateRisk() {
+            let score = Math.floor(Math.random() * 100);
+            document.getElementById("risk").innerText = 
+                "Risk Score: " + score;
+        }
+
+        setInterval(simulateRisk, 3000);
+    </script>
+</body>
+</html>
